@@ -1,0 +1,9 @@
+{
+  "name": "scaler-sitemap",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/fetch-and-rewrite.mjs"
+  }
+}
