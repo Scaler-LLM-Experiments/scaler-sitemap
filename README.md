@@ -35,6 +35,8 @@ No dependencies required — uses built-in `fetch` (Node 20+).
 
 ## Live sitemap URL
 
-_TBD — will be filled in after GitHub Pages is enabled._
+**https://scaler-sitemap-production.up.railway.app/sitemap.xml**
 
-Expected: `https://<github-username>.github.io/scaler-sitemap/sitemap.xml`
+Hosted on Railway (deployed from this repo's `main` branch). Submit this URL to Google Search Console under the `scaler.com` property.
+
+A tiny no-dependency Node static-file server (`server.mjs`) serves the repo root on the port Railway provides via `$PORT`. On every push to `main`, Railway redeploys automatically — including the hourly `chore: update sitemap` commits from GitHub Actions.
