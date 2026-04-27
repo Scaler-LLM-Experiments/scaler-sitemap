@@ -35,7 +35,9 @@ No dependencies required — uses built-in `fetch` (Node 20+).
 
 ## Live sitemap URL
 
-**https://scaler-sitemap-production.up.railway.app/sitemap.xml**
+**https://scaler-sitemap-production.up.railway.app/scaler-school-of-technology-guide-sitemap.xml**
+
+(`/sitemap.xml` also works as an alias for the same file.)
 
 Hosted on Railway (deployed from this repo's `main` branch). Submit this URL to Google Search Console under the `scaler.com` property.
 

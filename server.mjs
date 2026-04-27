@@ -17,8 +17,13 @@ const MIME = {
   ".ico": "image/x-icon",
 };
 
+const ALIASES = {
+  "/scaler-school-of-technology-guide-sitemap.xml": "/sitemap.xml",
+};
+
 async function resolvePath(urlPath) {
   let safe = normalize(decodeURIComponent(urlPath.split("?")[0]));
+  if (ALIASES[safe]) safe = ALIASES[safe];
   if (safe === "/" || safe === "") safe = "/index.html";
   const filePath = join(ROOT, safe);
   if (!filePath.startsWith(ROOT)) return null;
