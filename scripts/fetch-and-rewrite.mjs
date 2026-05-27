@@ -1,5 +1,6 @@
 import { writeFile, readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 
 // Source 1 — Framer guide pages (rewritten from the Framer domain to scaler.com).
 const SOURCE_URL = "https://modest-use-253097.framer.app/sitemap.xml";
@@ -16,8 +17,8 @@ const PREDICTOR_PATH = "/school-of-technology/college-predictor";
 const FETCH_TIMEOUT_MS = 30_000;
 const OUTPUT_PATH = join(process.cwd(), "sitemap.xml");
 
-// Official sitemaps.org namespace. Note the slash before 0.9 — `sitemap-0.9`
-// (hyphen) is wrong and Google Search Console rejects it as "Incorrect namespace".
+// Official sitemaps.org namespace. The `/` before 0.9 matters — `sitemap-0.9`
+// (hyphen) is rejected by Google Search Console as "Incorrect namespace".
 const SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9";
 
 async function fetchSitemap(url) {
@@ -69,48 +70,66 @@ function todayYMD() {
 }
 
 // If the live predictor sitemap can't be fetched this run, preserve whatever
-// predictor URLs are already in sitemap.xml — a transient outage must not drop
-// ~700 URLs from the brand sitemap (the next successful run re-syncs them).
-async function existingPredictorLocs() {
+// predictor URLs are already in the on-disk sitemap.xml — a transient outage
+// must not drop ~700 URLs from the brand sitemap.
+async function existingPredictorLocs(outputPath) {
   try {
-    const current = await readFile(OUTPUT_PATH, "utf8");
+    const current = await readFile(outputPath, "utf8");
     return extractLocs(current).filter((u) => u.includes(PREDICTOR_PATH));
   } catch {
     return [];
   }
 }
 
-async function main() {
+/**
+ * Generate the merged sitemap XML and (optionally) write it to disk.
+ * Returns { xml, guideCount, predictorCount, totalCount }.
+ *
+ * Exposed as a function so server.mjs can call it on a self-refresh
+ * interval without depending on GitHub Actions cron.
+ */
+export async function generateSitemap({ outputPath = OUTPUT_PATH, write = true } = {}) {
   // 1) Guide pages (Framer → www.scaler.com).
-  console.log(`Fetching guide sitemap: ${SOURCE_URL}`);
   const guideXml = await fetchSitemap(SOURCE_URL);
   const guideUrls = extractLocs(guideXml).filter(isGuideUrl).map(rewriteDomain);
-  console.log(`Guide URLs: ${guideUrls.length}`);
 
-  // 2) College Predictor pages (the app's own sitemap; already www.scaler.com).
+  // 2) College Predictor pages.
   let predictorUrls = [];
   try {
-    console.log(`Fetching predictor sitemap: ${PREDICTOR_SITEMAP_URL}`);
     const predXml = await fetchSitemap(PREDICTOR_SITEMAP_URL);
     predictorUrls = extractLocs(predXml).filter((u) => u.includes(PREDICTOR_PATH));
-    console.log(`Predictor URLs: ${predictorUrls.length}`);
     if (predictorUrls.length === 0) throw new Error("predictor sitemap had 0 matching URLs");
   } catch (err) {
-    console.warn(`Predictor sitemap unavailable (${err.message}); preserving existing predictor URLs.`);
-    predictorUrls = await existingPredictorLocs();
-    console.log(`Preserved ${predictorUrls.length} predictor URLs from current sitemap.`);
+    console.warn(`[sitemap] predictor unavailable (${err.message}); preserving prior URLs.`);
+    predictorUrls = await existingPredictorLocs(outputPath);
   }
 
   // 3) Merge, dedupe, sort.
   const all = [...new Set([...guideUrls, ...predictorUrls])].sort();
-  const lastmod = todayYMD();
-  await writeFile(OUTPUT_PATH, buildSitemap(all, lastmod), "utf8");
-  console.log(
-    `Wrote ${all.length} URLs (${guideUrls.length} guide + ${predictorUrls.length} predictor) to ${OUTPUT_PATH} (lastmod ${lastmod}).`
-  );
+  const xml = buildSitemap(all, todayYMD());
+  if (write) await writeFile(outputPath, xml, "utf8");
+
+  return {
+    xml,
+    guideCount: guideUrls.length,
+    predictorCount: predictorUrls.length,
+    totalCount: all.length,
+  };
 }
 
-main().catch((err) => {
-  console.error("Error:", err.message);
-  process.exit(1);
-});
+// CLI entry point — `node scripts/fetch-and-rewrite.mjs` still works for the
+// GitHub Action (which remains as a redundant backup if the Railway in-process
+// refresher fails).
+const isCli = process.argv[1] === fileURLToPath(import.meta.url);
+if (isCli) {
+  generateSitemap()
+    .then((r) => {
+      console.log(
+        `Wrote ${r.totalCount} URLs (${r.guideCount} guide + ${r.predictorCount} predictor) to ${OUTPUT_PATH}.`
+      );
+    })
+    .catch((err) => {
+      console.error("Error:", err.message);
+      process.exit(1);
+    });
+}
