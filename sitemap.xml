@@ -1,371 +1,759 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.scaler.com/school-of-business/guide</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/1-year-mba-in-india-(2026)-best-programs-fees-eligibility-roi</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/career-options-after-ba</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/career-options-after-bba</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/career-options-after-bca</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/career-options-after-bcom</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/career-options-after-bsc</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/career-options-after-btech</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/career-options-after-engineering</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/career-options-after-graduation</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/career-options-after-mba</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/category/business-management-glossary</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/category/mba-for-engineers</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/category/mba-for-non-tech</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/category/mba-for-professionals</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/category/mba-for-tech</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/category/non-iim-mba</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/functions-of-management</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/how-to-become-ai-product-manager</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/how-to-become-business-analyst</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/how-to-become-management-consultant</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/importance-of-business-environment</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/job-opportunities-after-mba</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/levels-of-management</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-after-ba</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-after-bba</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-after-bca</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-after-bcom</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-after-bsc</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-after-btech</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-after-computer-science</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-after-engineering</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-after-mca</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-colleges-bangalore-without-entrance-exam</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-colleges-in-karnataka</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-colleges-without-entrance-exam</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-for-career-growth</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-for-data-analysts</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-for-data-scientists</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-for-entrepreneurs</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-for-leadership-roles-can-it-actually-make-you-a-leader</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-for-non-tech-professionals</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-for-product-management</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-for-software-developers</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-for-tech-professionals</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-for-working-professionals</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-in-india-vs-abroad</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-to-start-a-business</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-to-switch-careers</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-to-transition-from-tech-to-business</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/mba-without-cat</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/nature-of-management</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/non-iim-mba-colleges</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/non-iim-mba-colleges-bangalore</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/one-year-mba-in-india</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/one-year-vs-two-year-mba</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/pgdm-colleges-in-bangalore</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/pgdm-vs-mba</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/salary-after-mba</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/scope-of-management</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/types-of-entrepreneurship</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/types-of-planning</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/which-mba-specialization-is-best</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-business/guide/working-capital-management</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/how-it-works</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/methodology</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/predict</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/predict/bitsat</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/predict/comedk</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/predict/gujcet</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/predict/jee-advanced</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/predict/jee-main</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/predict/kcet</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/predict/mht-cet</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/predict/srmjeee</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/predict/viteee</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/college-predictor/predict/wbjee</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/after-jee-mains-next-steps-future-roadmap</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/ai-courses-after-12th</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/ai-engineering-scope</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/ai-in-different-fields</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/ai-jobs-of-the-future</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/artificial-intelligence-and-automation</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/artificial-intelligence-jobs-high-traction</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/best-career-options-after-12th-science</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/best-colleges-for-computer-science-in-india</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/best-computer-science-colleges-in-bangalore</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/best-cse-colleges-bangalore</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/best-engineering-branch-in-future</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/best-engineering-college-apart-from-iit</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/best-engineering-colleges-for-my-child</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/best-engineering-entrance-exams-in-india</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/best-private-college-for-computer-science-in-india</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/best-private-colleges-in-india-for-computer-science</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/best-private-universities-in-india-for-computer-science</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/branch-vs-college-placements-career-growth</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/btech-entrance-exams-in-india-after-12th</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/btech-in-artificial-intelligence</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/career-after-computer-science-engineering</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/career-in-ai</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/career-in-ai-and-ml</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/category/ai-computer-science</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/category/career-paths</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/category/college-decisions</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/category/engineering-branches</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/category/entrance-exams</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/category/nset-prep</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/coding-focused-engineering-college</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/colleges-that-prepare-for-tech-jobs</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/computer-science-colleges-with-placements</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/computer-science-engineering-subjects</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/computer-science-vs-mechanical-engineering</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/confused-about-engineering-branch-selection-after-12th-read-this</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/cs-vs-civil-engineering</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/cs-vs-electrical-engineering</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/cs-vs-electronics-engineering-key-differences-career-options-and-who-it-suits-best</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/cse-vs-ai-engineering</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/cse-vs-computer-engineering-after-12th</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/cyber-security-engineering-scope</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/data-science-engineering-scope</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/difference-between-cs-and-ai</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/do-software-engineers-need-a-degree</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/engineering-branch-and-college-shortlist</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/engineering-colleges-with-good-placements</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/engineering-colleges-without-entrance-exams</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/engineering-colleges-without-jee</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/engineering-entrance-exams-after-12th-parallel-exam-strategy</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/engineering-options-after-drop-year</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/entrance-exams-after-12th-science-for-engineering</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/entrance-exams-apart-from-jee-main-options-and-timelines</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/entrance-tests-after-12th</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/exams-to-give-along-with-jee-2026</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/future-of-computer-science-careers</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/future-of-software-jobs-in-india</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/high-salary-courses-after-12th-science</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/holistic-admission-process-engineering</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/how-to-become-ai-engineer</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/how-to-choose-engineering-branch</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/how-to-choose-engineering-branch-based-on-interest</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/how-to-make-career-in-ai</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/how-to-start-ai-learning</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-ai-a-branch-of-engineering</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-btech-worth-it-in-india</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-computer-science-a-good-career-in-2026</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-computer-science-a-good-career-in-2030</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-computer-science-engineering-worth-it</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-computer-science-safe-career</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-computer-science-still-relevant</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-data-science-better-than-cs</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-engineering-still-a-good-option</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-engineering-still-worth-it</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-it-hard-to-get-cs-jobs-now</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/is-software-engineering-future-proof</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/multiple-entrance-exams-for-engineering-pick-2-3-exams-with-jee</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/new-age-universities-for-computer-science-in-india</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/new-age-vs-traditional-engineering-colleges</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/options-other-than-jee</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/pcm-career-options-after-12th</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/private-engineering-colleges-bangalore-cse-tech-careers</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/private-universities-in-india-for-computer-science</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/robotics-engineering-colleges-india</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/should-i-drop-a-year-for-jee</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/should-i-pursue-cse-with-ai-coming-up</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/should-you-choose-b-tech-after-12th</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/skills-vs-degree-for-software-jobs</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/software-engineering-degree-india</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/software-engineering-jobs-after-college</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/study-in-india-for-software-engineering-jobs-abroad</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/tech-jobs-future-in-india</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/top-10-computer-science-engineering-colleges-in-bangalore</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/top-cse-colleges-without-jee</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/top-engineering-entrance-exams-in-india-beyond-jee</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/what-are-the-best-courses-after-12th-science</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/what-to-do-if-jee-mains-not-cleared</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/which-branch-has-highest-placement</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/which-careers-are-safe-from-ai</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/which-engineering-branch-has-future</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/which-engineering-branch-has-highest-salary-and-future-jobs</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/which-engineering-branch-is-best</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/which-engineering-branch-should-you-choose-how-to-pick-the-right-fit-for-you</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/which-engineering-branch-suits-me</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/which-is-better-ai-or-cse</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/will-ai-replace-programmers</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/will-ai-replace-software-engineers</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/will-ai-take-away-engineering-jobs</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://www.scaler.com/school-of-technology/guide/will-artificial-intelligence-take-away-jobs</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/will-chatgpt-replace-software-engineers</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://www.scaler.com/school-of-technology/guide/will-computer-science-jobs-exist-in-future</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-02</lastmod>
   </url>
 </urlset>

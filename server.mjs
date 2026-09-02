@@ -1,7 +1,7 @@
 import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import { extname, join, normalize, resolve } from "node:path";
-import { generateSitemap } from "./scripts/fetch-and-rewrite.mjs";
+import { generateSitemap, formatCounts } from "./scripts/fetch-and-rewrite.mjs";
 
 const PORT = Number(process.env.PORT) || 3000;
 const ROOT = resolve(process.cwd());
@@ -23,13 +23,22 @@ const MIME = {
   ".ico": "image/x-icon",
 };
 
+// Every alias serves the same merged sitemap (SST guide + SSB guide +
+// college predictor). The school-of-technology name is kept verbatim because
+// it is the URL already submitted to Google Search Console — renaming it would
+// break that submission. `/scaler-guide-sitemap.xml` is the accurate name to
+// migrate to when convenient.
 const ALIASES = {
   "/scaler-school-of-technology-guide-sitemap.xml": "/sitemap.xml",
+  "/scaler-school-of-business-guide-sitemap.xml": "/sitemap.xml",
+  "/scaler-guide-sitemap.xml": "/sitemap.xml",
 };
 
 let lastRefreshAt = null;
 let lastRefreshError = null;
 let lastTotalCount = null;
+let lastCounts = null;
+let lastStaleSources = [];
 
 async function refreshSitemap(reason) {
   const t0 = Date.now();
@@ -38,9 +47,14 @@ async function refreshSitemap(reason) {
     lastRefreshAt = new Date();
     lastRefreshError = null;
     lastTotalCount = r.totalCount;
+    lastCounts = r.counts;
+    lastStaleSources = r.stale;
     console.log(
-      `[sitemap] refreshed (${reason}): ${r.totalCount} URLs (${r.guideCount} guide + ${r.predictorCount} predictor) in ${Date.now() - t0}ms`
+      `[sitemap] refreshed (${reason}): ${r.totalCount} URLs (${formatCounts(r.counts)}) in ${Date.now() - t0}ms`
     );
+    if (r.stale.length > 0) {
+      console.warn(`[sitemap] stale sources this run: ${r.stale.join(", ")}`);
+    }
   } catch (err) {
     lastRefreshError = err.message;
     console.error(`[sitemap] refresh failed (${reason}): ${err.message}`);
@@ -69,10 +83,13 @@ const server = createServer(async (req, res) => {
     res.writeHead(200, { "Content-Type": "application/json; charset=utf-8" });
     res.end(
       JSON.stringify({
-        status: lastRefreshError ? "degraded" : "ok",
+        status:
+          lastRefreshError || lastStaleSources.length > 0 ? "degraded" : "ok",
         lastRefreshAt,
         lastRefreshError,
         lastTotalCount,
+        counts: lastCounts,
+        staleSources: lastStaleSources,
         refreshIntervalMs: REFRESH_INTERVAL_MS,
       })
     );
